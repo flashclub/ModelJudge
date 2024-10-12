@@ -1,5 +1,5 @@
 {
-  "name": "model-master",
+  "name": "model-judge",
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",

@@ -1,11 +1,11 @@
-[简体中文](https://github.com/flashclub/ModelMaster)
+[简体中文](https://github.com/flashclub/ModelJudge)
 This project is derived from [AwesomePrompt](https://awesomeprompt.net/zh/all-model), thanks to [SiliconCloud](https://cloud.siliconflow.cn/i/h5JiyFm0) for providing free API services. Currently, registration comes with 20 million free tokens.
 
 # Model Judge 🧑‍⚖️
 
 Welcome to the Model Judge project! This is an AI model evaluation platform built with Next.js.
 Input a question, select three models to generate answers, and let a fourth model provide scores and a final answer! 🚀
-Online experience: [Model Judge](https://modelmaster.vercel.app/)
+Online experience: [Model Judge](https://modeljudge.vercel.app/)
 
 ## Features ✨
 
@@ -20,7 +20,7 @@ Online experience: [Model Judge](https://modelmaster.vercel.app/)
 1. Clone the project:
 
 ```bash
-git clone git@github.com:flashclub/ModelMaster.git
+git clone git@github.com:flashclub/ModelJudge.git
 ```
 
 2. Install dependencies:
