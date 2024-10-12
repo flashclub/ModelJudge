@@ -1,0 +1,110 @@
+{
+  "Home": {
+    "infoCard": "万物名片",
+    "ppt": "万物PPT",
+    "title": "探索提示词的无限可能 | awesomeprompt.net",
+    "description": "Awesome Prompt 是一个用于创建和分享 AI 模型提示的平台。",
+    "view": "查看"
+  },
+  "Info": {
+    "backHome": "返回首页"
+  },
+  "Header": {
+    "infoCard": "万物名片",
+    "ppt": "万物PPT",
+    "newWord": "万词新解"
+  },
+  "Footer": {
+    "infoCard": "万物名片",
+    "ppt": "万物PPT",
+    "commonLinks": "常用链接",
+    "projectLinks": "项目链接",
+    "followUs": "关注我们",
+    "allRightsReserved": "版权所有",
+    "home": "首页",
+    "newWord": "万词新解",
+    "allModel": "模型判官"
+  },
+  "PPT": {
+    "title": "万物PPT | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来万物PPT，基于AI能力和我们强大的Prompt，仅需要一句话，等待片刻，即可生成",
+    "slogan": "万物PPT，仅需要一句话，等待片刻，即可生成",
+    "view": "查看"
+  },
+  "LoginDialog": {
+    "title": "登录",
+    "loginWithGoogle": "使用Google登录",
+    "loginWithGithub": "使用Github登录"
+  },
+  "Download": {
+    "download": "下载",
+    "infoCard": "万物名片"
+  },
+  "JumpInput": {
+    "placeholder": "输入您的提示",
+    "loading": "加载中...",
+    "submit": "提交"
+  },
+  "GenerateData": {
+    "loading": "加载中...",
+    "promptPlaceholder": "输入您的提示",
+    "submit": "提交",
+    "reload": "重新生成"
+  },
+  "NewWord": {
+    "title": "万词新解 | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来万词新解，基于AI能力和我们强大的Prompt，仅需一个词，等待片刻，即可生成",
+    "infoCard": "万词新解",
+    "slogan": "万词新解，仅需一个词，等待片刻，即可生成",
+    "view": "查看"
+  },
+  "Thinker": {
+    "title": "万物思想家 | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来万物思想家，基于AI能力和我们强大的Prompt，仅需一句话，等待片刻，即可生成",
+    "infoCard": "万物思想家",
+    "slogan": "万物思想家，仅需一句话，等待片刻，即可生成",
+    "view": "查看",
+    "backHome": "返回"
+  },
+  "WordMemory": {
+    "title": "单词记忆卡 | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来单词记忆卡，基于AI能力和我们强大的Prompt，仅需一个词，等待片刻，即可生成",
+    "infoCard": "单词记忆卡",
+    "slogan": "单词记忆卡，仅需一个词，等待片刻，即可生成",
+    "view": "查看",
+    "backHome": "返回"
+  },
+  "Resume": {
+    "title": "万物简历 | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来万物简历，基于AI能力和我们强大的Prompt，仅需一句话，等待片刻，即可生成",
+    "infoCard": "万物简历",
+    "slogan": "万物简历，仅需一句话，等待片刻，即可生成",
+    "view": "查看",
+    "backHome": "返回"
+  },
+  "DismantleWord": {
+    "title": "万物拆解家 | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来万物拆解家，基于AI能力和我们强大的Prompt，仅需一句话，等待片刻，即可生成",
+    "infoCard": "万物拆解家",
+    "slogan": "万物拆解家，仅需一句话，等待片刻，即可生成",
+    "view": "查看",
+    "backHome": "返回"
+  },
+  "AllModel": {
+    "loading": "加载中...",
+    "start": "开始",
+    "title": "模型判官 | awesomeprompt.net",
+    "description": "Awesome Prompt 为您带来模型判官，这里有几十种模型，模型之间孰强孰弱孰优孰劣，来这里一决高下",
+    "infoCard": "模型判官",
+    "slogan": "模型判官，模型之间孰强孰弱孰优孰劣，来这里一决高下",
+    "view": "查看",
+    "backHome": "返回",
+    "noQuestion": "请输入问题",
+    "noModel": "请选择模型",
+    "inputQuestion": "请输入问题",
+    "selectModel": "请选择模型",
+    "contestModel": "当前模型：",
+    "aiJudge": "模型判官",
+    "waitingAnswer": "等待回答..."
+  }
+}

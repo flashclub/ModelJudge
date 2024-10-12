@@ -1,0 +1,109 @@
+{
+  "Home": {
+    "infoCard": "すべてを1つのカードに",
+    "ppt": "すべてを1つのPPTに",
+    "title": "プロンプトの無限の可能性を探す | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "view": "見る"
+  },
+  "Info": {
+    "backHome": "ホームに戻る"
+  },
+  "Header": {
+    "infoCard": "すべてを1つのカードに",
+    "ppt": "すべてを1つのPPTに",
+    "newWord": "新しい単語"
+  },
+  "Footer": {
+    "infoCard": "すべてを1つのカードに",
+    "ppt": "すべてを1つのPPTに",
+    "commonLinks": "共通リンク",
+    "projectLinks": "プロジェクトリンク",
+    "followUs": "フォローする",
+    "allRightsReserved": "すべての権利は予約されています",
+    "home": "ホーム",
+    "newWord": "新しい単語",
+    "allModel": "モデル判官"
+  },
+  "PPT": {
+    "title": "すべてを1つのPPTに | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "slogan": "すべてを1つのPPTに、1クリックで生成できます。",
+    "view": "見る"
+  },
+  "LoginDialog": {
+    "title": "ログイン",
+    "loginWithGoogle": "Googleでログイン",
+    "loginWithGithub": "Githubでログイン"
+  },
+  "JumpInput": {
+    "placeholder": "プロンプトを入力してください",
+    "loading": "読み込み中...",
+    "submit": "送信"
+  },
+  "Download": {
+    "download": "ダウンロード",
+    "infoCard": "すべてを1つのカードに"
+  },
+  "GenerateData": {
+    "loading": "読み込み中...",
+    "promptPlaceholder": "プロンプトを入力してください",
+    "submit": "送信",
+    "reload": "再生成"
+  },
+  "NewWord": {
+    "title": "新しい単語 | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "infoCard": "新しい単語",
+    "slogan": "新しい単語、1クリックで生成できます。",
+    "view": "見る"
+  },
+  "Thinker": {
+    "title": "万物思想家 | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "infoCard": "万物思想家",
+    "slogan": "万物思想家、1クリックで生成できます。",
+    "view": "見る"
+  },
+  "WordMemory": {
+    "title": "Word Memory Card | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "infoCard": "Word Memory Card",
+    "slogan": "Word Memory Card、1クリックで生成できます。",
+    "view": "見る",
+    "backHome": "ホームに戻る"
+  },
+  "Resume": {
+    "title": "Resume | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "infoCard": "Resume",
+    "slogan": "Resume、1クリックで生成できます。",
+    "view": "見る",
+    "backHome": "ホームに戻る"
+  },
+  "DismantleWord": {
+    "title": "Dismantle Word | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "infoCard": "Dismantle Word",
+    "slogan": "Dismantle Word、1クリックで生成できます。",
+    "view": "見る",
+    "backHome": "ホームに戻る"
+  },
+  "AllModel": {
+    "loading": "読み込み中...",
+    "waitingAnswer": "回答待ち...",
+    "start": "開始",
+    "title": "Model Judge | awesomeprompt.net",
+    "description": "Awesome Promptは、AIモデルのプロンプトを作成して共有するためのプラットフォームです。",
+    "infoCard": "Model Judge",
+    "slogan": "Model Judge、1クリックで生成できます。",
+    "view": "見る",
+    "backHome": "ホームに戻る",
+    "noQuestion": "質問を入力してください",
+    "noModel": "モデルを選択してください",
+    "inputQuestion": "質問を入力してください",
+    "selectModel": "モデルを選択してください",
+    "contestModel": "現在のモデル:",
+    "aiJudge": "Model Judge"
+  }
+}

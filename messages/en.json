@@ -1,0 +1,109 @@
+{
+  "Home": {
+    "infoCard": "All in One Card",
+    "ppt": "All in One PPT",
+    "title": "Explore the Infinite Possibilities of Prompts | awesomeprompt.net",
+    "description": "Awesome Prompt is a platform for creating and sharing prompts for AI models.",
+    "view": "View"
+  },
+  "Info": {
+    "backHome": "Back Home"
+  },
+  "Header": {
+    "infoCard": "All in One Card",
+    "ppt": "All in One PPT",
+    "newWord": "New Word"
+  },
+  "Footer": {
+    "infoCard": "All in One Card",
+    "ppt": "All in One PPT",
+    "commonLinks": "Common Links",
+    "projectLinks": "Project Links",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved",
+    "home": "Home",
+    "newWord": "New Word",
+    "allModel": "Model Judge"
+  },
+  "PPT": {
+    "title": "All in One PPT | awesomeprompt.net",
+    "description": "Awesome Prompt brings you All in One PPT, based on AI capabilities and our powerful Prompt, just one sentence, wait a moment, and you can generate it.",
+    "slogan": "All in One PPT, just one sentence, wait a moment, and you can generate it.",
+    "view": "View"
+  },
+  "LoginDialog": {
+    "title": "Login",
+    "loginWithGoogle": "Login with Google",
+    "loginWithGithub": "Login with Github"
+  },
+  "JumpInput": {
+    "placeholder": "Enter your prompt",
+    "loading": "Loading...",
+    "submit": "Submit"
+  },
+  "Download": {
+    "download": "Download",
+    "infoCard": "All in One Card"
+  },
+  "GenerateData": {
+    "loading": "Loading...",
+    "promptPlaceholder": "Enter your prompt",
+    "submit": "Submit",
+    "reload": "Reload"
+  },
+  "NewWord": {
+    "title": "New Word | awesomeprompt.net",
+    "description": "Awesome Prompt brings you New Word, based on AI capabilities and our powerful Prompt, just one word, wait a moment, and you can generate it.",
+    "infoCard": "New Word",
+    "slogan": "New Word, just one word, wait a moment, and you can generate it.",
+    "view": "View"
+  },
+  "Thinker": {
+    "title": "Thinker | awesomeprompt.net",
+    "description": "Awesome Prompt brings you Thinker, based on AI capabilities and our powerful Prompt, just one sentence, wait a moment, and you can generate it.",
+    "infoCard": "Thinker",
+    "slogan": "Thinker, just one sentence, wait a moment, and you can generate it.",
+    "view": "View"
+  },
+  "WordMemory": {
+    "title": "Word Memory Card | awesomeprompt.net",
+    "description": "Awesome Prompt brings you Word Memory Card, based on AI capabilities and our powerful Prompt, just one word, wait a moment, and you can generate it.",
+    "infoCard": "Word Memory Card",
+    "slogan": "Word Memory Card, just one word, wait a moment, and you can generate it.",
+    "view": "View",
+    "backHome": "Back Home"
+  },
+  "Resume": {
+    "title": "Resume | awesomeprompt.net",
+    "description": "Awesome Prompt brings you Resume, based on AI capabilities and our powerful Prompt, just one sentence, wait a moment, and you can generate it.",
+    "infoCard": "Resume",
+    "slogan": "Resume, just one sentence, wait a moment, and you can generate it.",
+    "view": "View",
+    "backHome": "Back Home"
+  },
+  "DismantleWord": {
+    "title": "Dismantle Word | awesomeprompt.net",
+    "description": "Awesome Prompt brings you Dismantle Word, based on AI capabilities and our powerful Prompt, just one word, wait a moment, and you can generate it.",
+    "infoCard": "Dismantle Word",
+    "slogan": "Dismantle Word, just one word, wait a moment, and you can generate it.",
+    "view": "View",
+    "backHome": "Back Home"
+  },
+  "AllModel": {
+    "loading": "Loading...",
+    "waitingAnswer": "Waiting Answer...",
+    "start": "Start",
+    "title": "Model Judge | awesomeprompt.net",
+    "description": "Awesome Prompt brings you Model Judge, based on AI capabilities and our powerful Prompt, just one sentence, wait a moment, and you can generate it.",
+    "infoCard": "Model Judge",
+    "slogan": "Model Judge, just one sentence, wait a moment, and you can generate it.",
+    "view": "View",
+    "backHome": "Back Home",
+    "noQuestion": "Please enter a question",
+    "noModel": "Please select a model",
+    "inputQuestion": "Please enter a question",
+    "selectModel": "Please select a model",
+    "contestModel": "Current Model:",
+    "aiJudge": "Model Judge"
+  }
+}

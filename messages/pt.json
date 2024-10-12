@@ -1,0 +1,109 @@
+{
+  "Home": {
+    "infoCard": "Tudo em uma carta",
+    "ppt": "Tudo em uma PPT",
+    "title": "Explore as infinitas possibilidades dos prompts | awesomeprompt.net",
+    "description": "Awesome Prompt é uma plataforma para criar e compartilhar prompts para modelos de IA.",
+    "view": "Ver"
+  },
+  "Info": {
+    "backHome": "Voltar para a página inicial"
+  },
+  "Header": {
+    "infoCard": "Tudo em uma carta",
+    "ppt": "Tudo em uma PPT",
+    "newWord": "Nova Palavra"
+  },
+  "Footer": {
+    "infoCard": "Tudo em uma carta",
+    "ppt": "Tudo em uma PPT",
+    "commonLinks": "Links comuns",
+    "projectLinks": "Links do projeto",
+    "followUs": "Nos siga",
+    "allRightsReserved": "Todos os direitos reservados",
+    "home": "Início",
+    "newWord": "Nova Palavra",
+    "allModel": "Modelo de Juiz"
+  },
+  "PPT": {
+    "title": "Tudo em uma PPT | awesomeprompt.net",
+    "description": "Awesome Prompt é uma plataforma para criar e compartilhar prompts para modelos de IA.",
+    "slogan": "Tudo em uma PPT, apenas uma frase, aguarde um momento e você pode gerar.",
+    "view": "Ver"
+  },
+  "LoginDialog": {
+    "title": "Login",
+    "loginWithGoogle": "Login com Google",
+    "loginWithGithub": "Login com Github"
+  },
+  "JumpInput": {
+    "placeholder": "Digite seu prompt",
+    "loading": "Carregando...",
+    "submit": "Enviar"
+  },
+  "Download": {
+    "download": "Baixar",
+    "infoCard": "Tudo em uma carta"
+  },
+  "GenerateData": {
+    "loading": "Carregando...",
+    "promptPlaceholder": "Digite seu prompt",
+    "submit": "Enviar",
+    "reload": "Recarregar"
+  },
+  "NewWord": {
+    "title": "Nova Palavra | awesomeprompt.net",
+    "description": "Awesome Prompt te traz Nova Palavra, baseado nas capacidades da IA e nosso poderoso prompt, apenas um clique, aguarde um momento e você pode gerar.",
+    "infoCard": "Nova Palavra",
+    "slogan": "Nova Palavra, apenas um clique, aguarde um momento e você pode gerar.",
+    "view": "Ver"
+  },
+  "Thinker": {
+    "title": "Thinker | awesomeprompt.net",
+    "description": "Awesome Prompt te traz Thinker, baseado nas capacidades da IA e nosso poderoso prompt, apenas um clique, aguarde um momento e você pode gerar.",
+    "infoCard": "Thinker",
+    "slogan": "Thinker, apenas um clique, aguarde um momento e você pode gerar.",
+    "view": "Ver"
+  },
+  "WordMemory": {
+    "title": "Word Memory Card | awesomeprompt.net",
+    "description": "Awesome Prompt te traz Word Memory Card, baseado nas capacidades da IA e nosso poderoso prompt, apenas um clique, aguarde um momento e você pode gerar.",
+    "infoCard": "Word Memory Card",
+    "slogan": "Word Memory Card, apenas um clique, aguarde um momento e você pode gerar.",
+    "view": "Ver",
+    "backHome": "Voltar para a página inicial"
+  },
+  "Resume": {
+    "title": "Resume | awesomeprompt.net",
+    "description": "Awesome Prompt te traz Resume, baseado nas capacidades da IA e nosso poderoso prompt, apenas um clique, aguarde um momento e você pode gerar.",
+    "infoCard": "Resume",
+    "slogan": "Resume, apenas um clique, aguarde um momento e você pode gerar.",
+    "view": "Ver",
+    "backHome": "Voltar para a página inicial"
+  },
+  "DismantleWord": {
+    "title": "Dismantle Word | awesomeprompt.net",
+    "description": "Awesome Prompt te traz Dismantle Word, baseado nas capacidades da IA e nosso poderoso prompt, apenas um clique, aguarde um momento e você pode gerar.",
+    "infoCard": "Dismantle Word",
+    "slogan": "Dismantle Word, apenas um clique, aguarde um momento e você pode gerar.",
+    "view": "Ver",
+    "backHome": "Voltar para a página inicial"
+  },
+  "AllModel": {
+    "loading": "Carregando...",
+    "waitingAnswer": "Aguardando resposta...",
+    "start": "Iniciar",
+    "title": "Model Judge | awesomeprompt.net",
+    "description": "Awesome Prompt te traz Model Judge, baseado nas capacidades da IA e nosso poderoso prompt, apenas um clique, aguarde um momento e você pode gerar.",
+    "infoCard": "Model Judge",
+    "slogan": "Model Judge, apenas um clique, aguarde um momento e você pode gerar.",
+    "view": "Ver",
+    "backHome": "Voltar para a página inicial",
+    "noQuestion": "Digite sua pergunta",
+    "noModel": "Selecione um modelo",
+    "inputQuestion": "Digite sua pergunta",
+    "selectModel": "Selecione um modelo",
+    "contestModel": "Modelo atual:",
+    "aiJudge": "Model Judge"
+  }
+}

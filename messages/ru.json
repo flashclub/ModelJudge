@@ -1,0 +1,109 @@
+{
+  "Home": {
+    "infoCard": "Всё в одной карточке",
+    "ppt": "Всё в одном PPT",
+    "title": "Исследуйте бесконечные возможности промптов | awesomeprompt.net",
+    "description": "Awesome Prompt - это платформа для создания и обмена промптов для моделей AI.",
+    "view": "Смотреть"
+  },
+  "Info": {
+    "backHome": "Вернуться на главную"
+  },
+  "Header": {
+    "infoCard": "Всё в одной карточке",
+    "ppt": "Всё в одном PPT",
+    "newWord": "Новое слово"
+  },
+  "Footer": {
+    "infoCard": "Всё в одной карточке",
+    "ppt": "Всё в одном PPT",
+    "commonLinks": "Общие ссылки",
+    "projectLinks": "Ссылки на проекты",
+    "followUs": "Следите за нами",
+    "allRightsReserved": "Все права защищены",
+    "home": "Главная",
+    "newWord": "Новое слово",
+    "allModel": "Модельный судья"
+  },
+  "PPT": {
+    "title": "Всё в одном PPT | awesomeprompt.net",
+    "description": "Awesome Prompt - это платформа для создания и обмена промптов для моделей AI.",
+    "slogan": "Всё в одном PPT, одно предложение, ожидайте и вы можете сгенерировать.",
+    "view": "Смотреть"
+  },
+  "LoginDialog": {
+    "title": "Вход",
+    "loginWithGoogle": "Войти с Google",
+    "loginWithGithub": "Войти с Github"
+  },
+  "JumpInput": {
+    "placeholder": "Введите ваш промпт",
+    "loading": "Загрузка...",
+    "submit": "Отправить"
+  },
+  "Download": {
+    "download": "Скачать",
+    "infoCard": "Всё в одной карточке"
+  },
+  "GenerateData": {
+    "loading": "Загрузка...",
+    "promptPlaceholder": "Введите ваш промпт",
+    "submit": "Отправить",
+    "reload": "Перезагрузить"
+  },
+  "NewWord": {
+    "title": "Новое слово | awesomeprompt.net",
+    "description": "Awesome Prompt предлагает вам Новое слово, основанное на возможностях ИИ и нашем мощном промпте, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "infoCard": "Новое слово",
+    "slogan": "Новое слово, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "view": "Смотреть"
+  },
+  "Thinker": {
+    "title": "Thinker | awesomeprompt.net",
+    "description": "Awesome Prompt предлагает вам Thinker, основанное на возможностях ИИ и нашем мощном промпте, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "infoCard": "Thinker",
+    "slogan": "Thinker, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "view": "Смотреть"
+  },
+  "WordMemory": {
+    "title": "Word Memory Card | awesomeprompt.net",
+    "description": "Awesome Prompt предлагает вам Word Memory Card, основанное на возможностях ИИ и нашем мощном промпте, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "infoCard": "Word Memory Card",
+    "slogan": "Word Memory Card, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "view": "Смотреть",
+    "backHome": "Вернуться на главную"
+  },
+  "Resume": {
+    "title": "Resume | awesomeprompt.net",
+    "description": "Awesome Prompt предлагает вам Resume, основанное на возможностях ИИ и нашем мощном промпте, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "infoCard": "Resume",
+    "slogan": "Resume, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "view": "Смотреть",
+    "backHome": "Вернуться на главную"
+  },
+  "DismantleWord": {
+    "title": "Dismantle Word | awesomeprompt.net",
+    "description": "Awesome Prompt предлагает вам Dismantle Word, основанное на возможностях ИИ и нашем мощном промпте, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "infoCard": "Dismantle Word",
+    "slogan": "Dismantle Word, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "view": "Смотреть",
+    "backHome": "Вернуться на главную"
+  },
+  "AllModel": {
+    "loading": "Загрузка...",
+    "waitingAnswer": "Ожидание ответа...",
+    "start": "Начать",
+    "title": "Model Judge | awesomeprompt.net",
+    "description": "Awesome Prompt предлагает вам Model Judge, основанное на возможностях ИИ и нашем мощном промпте, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "infoCard": "Model Judge",
+    "slogan": "Model Judge, просто один клик, подождите немного, и вы сможете его сгенерировать.",
+    "view": "Смотреть",
+    "backHome": "Вернуться на главную",
+    "noQuestion": "Введите ваш вопрос",
+    "noModel": "Выберите модель",
+    "inputQuestion": "Введите ваш вопрос",
+    "selectModel": "Выберите модель",
+    "contestModel": "Текущая модель:",
+    "aiJudge": "Model Judge"
+  }
+}

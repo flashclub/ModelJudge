@@ -1,0 +1,109 @@
+{
+  "Info": {
+    "backHome": "Torna alla pagina iniziale"
+  },
+  "Header": {
+    "infoCard": "Tutto in una carta",
+    "ppt": "Tutto in una PPT",
+    "newWord": "Nuovo Vocabolo"
+  },
+  "Footer": {
+    "infoCard": "Tutto in una carta",
+    "ppt": "Tutto in una PPT",
+    "commonLinks": "Link comuni",
+    "projectLinks": "Link del progetto",
+    "followUs": "Seguici",
+    "allRightsReserved": "Tutti i diritti sono riservati",
+    "home": "Home",
+    "newWord": "Nuovo Vocabolo",
+    "allModel": "Modello di Giudice"
+  },
+  "PPT": {
+    "title": "Tutto in una PPT | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta tutto in una PPT, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "slogan": "Tutto in una PPT, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi"
+  },
+  "Home": {
+    "infoCard": "Tutto in una carta",
+    "ppt": "Tutto in una PPT",
+    "title": "Esplora le possibilità infinite dei prompts | awesomeprompt.net",
+    "description": "Awesome Prompt è una piattaforma per creare e condividere prompts per i modelli di IA.",
+    "view": "Vedi"
+  },
+  "LoginDialog": {
+    "title": "Login",
+    "loginWithGoogle": "Login con Google",
+    "loginWithGithub": "Login con Github"
+  },
+  "JumpInput": {
+    "placeholder": "Inserisci il tuo prompt",
+    "loading": "Caricamento...",
+    "submit": "Invia"
+  },
+  "Download": {
+    "download": "Scarica",
+    "infoCard": "Tutto in una carta"
+  },
+  "GenerateData": {
+    "loading": "Caricamento...",
+    "promptPlaceholder": "Inserisci il tuo prompt",
+    "submit": "Invia",
+    "reload": "Ricarica"
+  },
+  "NewWord": {
+    "title": "Nuovo Vocabolo | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta Nuovo Vocabolo, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "infoCard": "Nuovo Vocabolo",
+    "slogan": "Nuovo Vocabolo, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi"
+  },
+  "Thinker": {
+    "title": "Thinker | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta Thinker, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "infoCard": "Thinker",
+    "slogan": "Thinker, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi"
+  },
+  "WordMemory": {
+    "title": "Word Memory Card | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta Word Memory Card, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "infoCard": "Word Memory Card",
+    "slogan": "Word Memory Card, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi",
+    "backHome": "Torna alla pagina iniziale"
+  },
+  "Resume": {
+    "title": "Resume | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta Resume, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "infoCard": "Resume",
+    "slogan": "Resume, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi",
+    "backHome": "Torna alla pagina iniziale"
+  },
+  "DismantleWord": {
+    "title": "Dismantle Word | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta Dismantle Word, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "infoCard": "Dismantle Word",
+    "slogan": "Dismantle Word, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi",
+    "backHome": "Torna alla pagina iniziale"
+  },
+  "AllModel": {
+    "loading": "Caricamento...",
+    "waitingAnswer": "Attendendo risposta...",
+    "start": "Inizia",
+    "title": "Model Judge | awesomeprompt.net",
+    "description": "Awesome Prompt ti porta Model Judge, basato sulle possibilità dell'IA e il nostro potente prompt, solo un clic, attendi un momento e puoi generarlo.",
+    "infoCard": "Model Judge",
+    "slogan": "Model Judge, solo un clic, attendi un momento e puoi generarlo.",
+    "view": "Vedi",
+    "backHome": "Torna alla pagina iniziale",
+    "noQuestion": "Inserisci una domanda",
+    "noModel": "Seleziona un modello",
+    "inputQuestion": "Inserisci una domanda",
+    "selectModel": "Seleziona un modello",
+    "contestModel": "Modello attuale:",
+    "aiJudge": "Model Judge"
+  }
+}
