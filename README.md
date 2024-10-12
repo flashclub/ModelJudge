@@ -1,4 +1,4 @@
-[English](https://github.com/flashclub/blob/main/README_EN.md)
+[English](https://github.com/flashclub/ModelJudge/blob/main/README_EN.md)
 
 本项目抽离于 [AwesomePrompt](https://awesomeprompt.net/zh/all-model)，感谢 [SiliconCloud](https://cloud.siliconflow.cn/i/h5JiyFm0) 提供的免费 API 服务。目前注册即送 2000 万 token。
 
