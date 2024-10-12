@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 模型判官 🧑‍⚖️
 
-## Getting Started
+欢迎来到模型判官项目! 这是一个基于 Next.js 构建的 AI 模型评估平台。让我们一起来看看这个神奇的项目吧! 🚀
 
-First, run the development server:
+## 项目特色 ✨
+
+- 多模型对比: 同时对比多个 AI 模型的回答 🤖🆚🤖
+- 实时流式响应: 快速获取 AI 的回答,无需等待 ⚡
+- 国际化支持: 支持中文和英文界面 🌍
+- 响应式设计: 在各种设备上都能完美展示 📱💻
+- 用户认证: 支持 Google 和 GitHub 登录 🔐
+
+## 快速开始 🏁
+
+1. 克隆项目:
+
+```bash
+git clone https://github.com/your-username/model-judge.git
+```
+
+2. 安装依赖:
+
+```bash
+npm install
+```
+
+3. 运行开发服务器:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. 打开浏览器访问 [http://localhost:3000](http://localhost:3000) 即可看到项目运行效果!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 技术栈 🛠️
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/) - React 框架
+- [Tailwind CSS](https://tailwindcss.com/) - 样式框架
+- [next-intl](https://next-intl-docs.vercel.app/) - 国际化解决方案
+- [NextAuth.js](https://next-auth.js.org/) - 认证库
+- [Supabase](https://supabase.com/) - 后端数据库
 
-## Learn More
+## 项目结构 📁
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+src/
+├── app/ # 应用主目录
+├── components/ # React 组件
+├── config/ # 配置文件
+├── context/ # React Context
+├── lib/ # 工具函数
+└── messages/ # 国际化文本
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 贡献指南 🤝
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+我们欢迎任何形式的贡献! 如果你有好的想法或发现了 bug,请随时提出 issue 或发起 pull request。
 
-## Deploy on Vercel
+## 许可证 📄
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+本项目采用 MIT 许可证。详情请查看 [LICENSE](LICENSE) 文件。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+让我们一起打造更棒的 AI 模型评估平台吧! 🎉
