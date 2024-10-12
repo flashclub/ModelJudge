@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
 import { v4 as uuidv4 } from "uuid";
 
@@ -167,11 +168,12 @@ export default function ClientComponent({ models }: ClientComponentProps) {
   return (
     <div className="container mx-auto pt-4 flex-1 overflow-auto flex flex-col">
       <div className="flex flex-col md:flex-row gap-4 mb-4">
-        <Input
+        <Textarea
           placeholder={t("inputQuestion")}
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
           className="flex-grow"
+          rows={4}
         />
         <Button onClick={handleStart} disabled={loading} className="md:w-24">
           {loading ? t("loading") : t("start")}
