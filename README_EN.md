@@ -5,7 +5,7 @@ This project is derived from [AwesomePrompt](https://awesomeprompt.net/zh/all-mo
 
 Welcome to the Model Judge project! This is an AI model evaluation platform built with Next.js.
 Input a question, select three models to generate answers, and let a fourth model provide scores and a final answer! 🚀
-Online experience: [Model Judge](https://modeljudge.vercel.app/)
+Online experience: [Model Judge](https://model-judge.vercel.app/en)
 
 ## Features ✨
 

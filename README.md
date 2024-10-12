@@ -6,7 +6,7 @@
 
 欢迎来到模型判官项目! 这是一个基于 Next.js 构建的 AI 模型评估平台。
 输入问题选择三个模型，生成回答，由第四个模型给出评分和最终回答! 🚀
-在线体验：[模型判官](https://modeljudge.vercel.app/)
+在线体验：[模型判官](https://model-judge.vercel.app/zh)
 
 ## 项目特色 ✨
 
