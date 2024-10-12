@@ -10,10 +10,11 @@ Online experience: [Model Judge](https://model-judge.vercel.app/en)
 ## Features ✨
 
 - Multi-model comparison: Compare answers from multiple AI models simultaneously 🤖🆚🤖
+- Scoring mechanism: Let a fourth model provide scores and a final answer 📊
 - Real-time streaming responses: Get AI answers quickly without waiting ⚡
 - Internationalization: Supports Chinese and English interfaces 🌍
 - Responsive design: Perfect display on various devices 📱💻
-- User authentication: Supports Google and GitHub login 🔐
+- User authentication: Supports Google and GitHub login 🔐 (optional)
 
 ## Quick Start 🏁
 
