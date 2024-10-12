@@ -6,7 +6,6 @@ import configData from "@/config";
 
 const intlMiddleware = createMiddleware({
   // 支持的语言列表
-  // locales: ["en", "zh", "ko", "de", "es", "fr", "ja", "nl", "pl", "pt", "vi"],
   locales: configData.supportedLocales,
   // 默认语言
   defaultLocale: configData.defaultLocale,

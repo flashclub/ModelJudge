@@ -55,19 +55,8 @@ const config: Config = {
   freeUsageLimit: process.env.FREE_USAGE_LIMIT
     ? parseInt(process.env.FREE_USAGE_LIMIT, 10)
     : 5,
-  defaultLocale: "en",
-  supportedLocales: [
-    "en",
-    "zh",
-    "fr",
-    "de",
-    "es",
-    "it",
-    "pt",
-    "ja",
-    "ko",
-    "ru",
-  ],
+  defaultLocale: "zh",
+  supportedLocales: ["en", "zh"],
   imageGenerationSettings: {
     defaultInferenceSteps: 28,
     defaultGuidanceScale: 3.5,
