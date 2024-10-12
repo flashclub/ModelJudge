@@ -1,5 +1,6 @@
+// 如果有数据库需求，请打开注释
 import { OpenAIStream } from "@/lib/AIStream";
-import { createClient } from "@/lib/supabase";
+// import { createClient } from "@/lib/supabase";
 import config from "@/config";
 
 export const runtime = "edge";
@@ -11,12 +12,12 @@ export async function POST(req: Request) {
     system,
     id: deviceId,
   } = await req.json();
-  let supabase = null;
-  if (!config.database.supabaseUrl || !config.database.supabaseServiceKey) {
-    // throw new Error("Missing Supabase URL or service key in configuration");
-  } else {
-    supabase = createClient();
-  }
+  // let supabase = null;
+  // if (!config.database.supabaseUrl || !config.database.supabaseServiceKey) {
+  //   // throw new Error("Missing Supabase URL or service key in configuration");
+  // } else {
+  //   supabase = createClient();
+  // }
 
   const messages = [
     {
@@ -41,23 +42,23 @@ export async function POST(req: Request) {
       if (text) {
         console.log("text: ", text);
         console.log("model: ", model);
-        if (supabase) {
-          const { data, error } = await supabase
-            .from("prompt_all_model")
-            .upsert(
-              {
-                question_id: deviceId,
-                [modelIndex]: {
-                  name: model,
-                  response: text,
-                },
-                question,
-              },
-              { onConflict: "question_id" }
-            );
-          console.log("data: ", data);
-          console.log("error: ", error);
-        }
+        // if (supabase) {
+        //   const { data, error } = await supabase
+        //     .from("prompt_all_model")
+        //     .upsert(
+        //       {
+        //         question_id: deviceId,
+        //         [modelIndex]: {
+        //           name: model,
+        //           response: text,
+        //         },
+        //         question,
+        //       },
+        //       { onConflict: "question_id" }
+        //     );
+        //   console.log("data: ", data);
+        //   console.log("error: ", error);
+        // }
       }
     },
   });
