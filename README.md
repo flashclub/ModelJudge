@@ -1,9 +1,12 @@
+[English](https://github.com/flashclub/blob/main/README_EN.md)
+
 本项目抽离于 [AwesomePrompt](https://awesomeprompt.net/zh/all-model)，感谢 [SiliconCloud](https://cloud.siliconflow.cn/i/h5JiyFm0) 提供的免费 API 服务。目前注册即送 2000 万 token。
 
 # 模型判官 🧑‍⚖️
 
 欢迎来到模型判官项目! 这是一个基于 Next.js 构建的 AI 模型评估平台。
 输入问题选择三个模型，生成回答，由第四个模型给出评分和最终回答! 🚀
+在线体验：[模型判官](https://modelmaster.vercel.app/)
 
 ## 项目特色 ✨
 
@@ -27,13 +30,19 @@ git clone git@github.com:flashclub/ModelMaster.git
 npm install
 ```
 
-3. 运行开发服务器:
+3. 创建 `.env` 文件，并填入 SiliconCloud API Key:
+
+```bash
+SILICONFLOW_KEY=your_api_key
+```
+
+4. 运行开发服务器:
 
 ```bash
 npm run dev
 ```
 
-4. 打开浏览器访问 [http://localhost:3000](http://localhost:3000) 即可看到项目运行效果!
+5. 打开浏览器访问 [http://localhost:3000](http://localhost:3000) 即可看到项目运行效果!
 
 ## 技术栈 🛠️
 
