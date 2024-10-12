@@ -1,6 +1,9 @@
+本项目抽离于 [AwesomePrompt](https://awesomeprompt.net/zh/all-model)，感谢 [SiliconCloud](https://cloud.siliconflow.cn/i/h5JiyFm0) 提供的免费 API 服务。目前注册即送 2000 万 token。
+
 # 模型判官 🧑‍⚖️
 
-欢迎来到模型判官项目! 这是一个基于 Next.js 构建的 AI 模型评估平台。让我们一起来看看这个神奇的项目吧! 🚀
+欢迎来到模型判官项目! 这是一个基于 Next.js 构建的 AI 模型评估平台。
+输入问题选择三个模型，生成回答，由第四个模型给出评分和最终回答! 🚀
 
 ## 项目特色 ✨
 
@@ -15,7 +18,7 @@
 1. 克隆项目:
 
 ```bash
-git clone https://github.com/your-username/model-judge.git
+git clone git@github.com:flashclub/ModelMaster.git
 ```
 
 2. 安装依赖:
@@ -37,8 +40,8 @@ npm run dev
 - [Next.js](https://nextjs.org/) - React 框架
 - [Tailwind CSS](https://tailwindcss.com/) - 样式框架
 - [next-intl](https://next-intl-docs.vercel.app/) - 国际化解决方案
-- [NextAuth.js](https://next-auth.js.org/) - 认证库
-- [Supabase](https://supabase.com/) - 后端数据库
+- [NextAuth.js](https://next-auth.js.org/) - 认证库（可选）
+- [Supabase](https://supabase.com/) - 后端数据库（可选）
 
 ## 项目结构 📁
 
@@ -55,6 +58,10 @@ src/
 ## 贡献指南 🤝
 
 我们欢迎任何形式的贡献! 如果你有好的想法或发现了 bug,请随时提出 issue 或发起 pull request。
+
+## 致谢
+
+1. 感谢 [SiliconCloud](https://cloud.siliconflow.cn/i/h5JiyFm0)。
 
 ## 许可证 📄
 
