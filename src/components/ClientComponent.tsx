@@ -146,7 +146,7 @@ export default function ClientComponent({ models }: ClientComponentProps) {
         你是一位以尖锐和挑衅风格著称的专业评论员。你的任务是查看大语言模型的回答，
         并根据这些回答点评。要尖锐和挑衅，稍微刻薄一点。不要让人感到尴尬。
         针对 ${question} 这个问题
-        ${selectedModela} 的回答是：${currentAnswers.a}，f
+        ${selectedModela} 的回答是：${currentAnswers.a}，
 
         ${selectedModelb} 的回答是：${currentAnswers.b}，
 
