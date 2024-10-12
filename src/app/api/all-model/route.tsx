@@ -40,8 +40,8 @@ export async function POST(req: Request) {
     apiKey: process.env.SILICONFLOW_KEY,
     callback: async (text) => {
       if (text) {
-        console.log("text: ", text);
-        console.log("model: ", model);
+        // console.log("text: ", text);
+        // console.log("model: ", model);
         // if (supabase) {
         //   const { data, error } = await supabase
         //     .from("prompt_all_model")

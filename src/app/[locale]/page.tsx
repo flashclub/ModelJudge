@@ -22,8 +22,7 @@ const fetchAllModel = async () => {
     .catch((error) => {
       console.log(error);
     });
-  console.log("所有模型", data);
-  // 筛选出问答模
+  // console.log("所有模型", data);
 
   return data;
 };
@@ -49,7 +48,7 @@ export default async function AllModel({
   const t = await getTranslations({ locale, namespace: INTL_NAMESPACE });
   const data = await fetchAllModel();
 
-  console.log("api data--", data);
+  // console.log("api data--", data);
   return (
     <Suspense fallback={<div>{t("loading")}</div>}>
       <div className="flex flex-col container p-4 mx-auto max-h-[calc(100vh-0px)] overflow-auto">

@@ -123,38 +123,41 @@ export default function ClientComponent({ models }: ClientComponentProps) {
         ),
       ]);
 
-      await Promise.all([
+      const [resultA, resultB, resultC] = await Promise.all([
         streamResponse(responseA, "a"),
         streamResponse(responseB, "b"),
         streamResponse(responseC, "c"),
       ]);
-      console.log("answers all", answers);
-      await setD();
+
+      const updatedAnswers = { a: resultA, b: resultB, c: resultC, d: "" };
+      console.log("answers all", updatedAnswers);
+
+      await setD(updatedAnswers);
     } catch (error) {
       console.error("错误:", error);
     } finally {
       setLoading(false);
     }
   };
-  // useEffect(() => {
-  //   if (!loading && answers.a && answers.b && answers.c) {
-  //   }
-  // }, [loading]);
-  const setD = async () => {
-    console.log("answers", answers);
+  const setD = async (currentAnswers: typeof answers) => {
+    // console.log("currentAnswers", currentAnswers);
 
     const system = `
         你是一位以尖锐和挑衅风格著称的专业评论员。你的任务是查看大语言模型的回答，
         并根据这些回答点评。要尖锐和挑衅，稍微刻薄一点。不要让人感到尴尬。
-        针对${question}这个问题
-        ${selectedModela} 的回答是：${answers.a}，
-        ${selectedModelb} 的回答是：${answers.b}，
-        ${selectedModelc} 的回答是：${answers.c}， 
+        针对 ${question} 这个问题
+        ${selectedModela} 的回答是：${currentAnswers.a}，f
+
+        ${selectedModelb} 的回答是：${currentAnswers.b}，
+
+        ${selectedModelc} 的回答是：${currentAnswers.c}， 
+
         请你分别总结三个模型回答的内容
         并且指出他们回答的
 
         优点，缺点，得分（满分100），并给出最终的答案。
       `;
+    console.log("system", system);
     const responseD = await fetch(
       "/api/all-model",
       fetchOptions({ modelIndex: "model_d", name: selectedModeld }, system)
