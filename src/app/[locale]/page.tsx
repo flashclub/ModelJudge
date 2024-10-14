@@ -70,7 +70,7 @@ export default async function AllModel({
             <h2 className="text-xl font-bold text-gray-900 mb-4">
               {t("description")}
             </h2>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 mb-8 mx-auto">
               模型判官是一款革命性的AI模型评测工具，帮助您快速找到最适合的AI模型。
             </p>
             <Link href={`${locale}/model-judge`}>
