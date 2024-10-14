@@ -2,12 +2,14 @@ import { createParser } from "eventsource-parser";
 import { OpenAIError } from "./errors";
 
 export const OpenAIStream = async ({
+  addModelNameInResult,
   model,
   url,
   messages,
   apiKey,
   callback,
 }: {
+  addModelNameInResult?: boolean;
   model: string;
   url: string;
   messages: any[];

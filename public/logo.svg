@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8e44ad;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1abc9c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- 大脑轮廓 -->
+  <path d="M100 30 C 60 30, 20 70, 20 110 C 20 150, 60 170, 100 170 C 140 170, 180 150, 180 110 C 180 70, 140 30, 100 30 Z" 
+        fill="url(#brainGradient)" stroke="#2c3e50" stroke-width="3" filter="url(#glow)"/>
+  
+  <!-- 大脑纹路 -->
+  <path d="M40 100 Q 60 60, 100 60 Q 140 60, 160 100" fill="none" stroke="#ecf0f1" stroke-width="2" opacity="0.6"/>
+  <path d="M40 120 Q 60 160, 100 160 Q 140 160, 160 120" fill="none" stroke="#ecf0f1" stroke-width="2" opacity="0.6"/>
+  
+  <!-- 电路图案 -->
+  <!-- <path d="M50 90 L 70 90 L 80 100 L 90 80 L 100 100 L 110 90 L 130 90" fill="none" stroke="#2ecc71" stroke-width="2"/>
+  <path d="M70 130 L 90 130 L 100 120 L 110 140 L 120 120 L 130 130 L 150 130" fill="none" stroke="#2ecc71" stroke-width="2"/>
+   -->
+  <!-- 评分图标 -->
+  <polygon points="100,15 104,26 116,26 106,33 110,44 100,38 90,44 94,33 84,26 96,26" 
+           fill="#f1c40f" stroke="#f39c12" stroke-width="1.5" filter="url(#glow)"/>
+  
+  <!-- LLM 文字 -->
+  <text x="100" y="105" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#ecf0f1" filter="url(#glow)">LLM</text>
+  
+  <!-- Eval 文字 -->
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ecf0f1">Eval</text>
+</svg>

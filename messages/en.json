@@ -14,6 +14,15 @@
     "inputQuestion": "Please enter a question",
     "selectModel": "Please select a model",
     "contestModel": "Current Model:",
-    "aiJudge": "Model Judge"
+    "aiJudge": "Model Judge",
+    "projectSource": "This project is separated from",
+    "projectSupport": "Thanks for",
+    "projectFreeApi": "free API service.",
+    "projectOpenSource": "The project is currently open source, welcome to visit",
+    "projectGithub": "Github"
+  },
+  "ModelVs": {
+    "title": "Model Debate | modeldebate.awesomeprompt.net",
+    "description": "Model Debate, model between model, who will win?"
   }
 }

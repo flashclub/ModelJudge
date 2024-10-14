@@ -1,5 +1,4 @@
 import { getMessages } from "next-intl/server";
-import "./globals.css";
 import { NextAuthProvider } from "@/context/next-auth-context";
 import Layout from "@/components/Layout";
 import { LocaleProvider } from "@/components/LocaleProvider";
@@ -18,17 +17,17 @@ export default async function LocaleLayout({
 }) {
   const messages = await getMessages();
   // 如果你有谷歌登陆
-  // return (
-  //   <html lang={locale}>
-  //     <body>
-  //       <NextAuthProvider>
-  //         <LocaleProvider locale={locale} messages={messages}>
-  //           <Layout locale={locale}>{children}</Layout>
-  //         </LocaleProvider>
-  //       </NextAuthProvider>
-  //     </body>
-  //   </html>
-  // );
+  return (
+    <html lang={locale}>
+      <body>
+        <NextAuthProvider>
+          <LocaleProvider locale={locale} messages={messages}>
+            <Layout locale={locale}>{children}</Layout>
+          </LocaleProvider>
+        </NextAuthProvider>
+      </body>
+    </html>
+  );
   return (
     <html lang={locale}>
       <body>

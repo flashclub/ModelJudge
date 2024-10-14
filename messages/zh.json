@@ -2,7 +2,7 @@
   "AllModel": {
     "loading": "加载中...",
     "start": "开始",
-    "title": "模型判官 | awesomeprompt.net",
+    "title": "模型判官 | modeljudge.awesomeprompt.net",
     "description": "Awesome Prompt 为您带来模型判官，这里有几十种模型，模型之间孰强孰弱孰优孰劣，来这里一决高下",
     "infoCard": "模型判官",
     "slogan": "模型判官，模型之间孰强孰弱孰优孰劣，来这里一决高下",
@@ -14,6 +14,15 @@
     "selectModel": "请选择模型",
     "contestModel": "当前模型：",
     "aiJudge": "模型判官",
-    "waitingAnswer": "等待回答..."
+    "waitingAnswer": "等待回答...",
+    "projectSource": "本项目抽离于",
+    "projectSupport": "感谢 ",
+    "projectFreeApi": " 提供的免费API服务。",
+    "projectOpenSource": "项目目前已开源，欢迎访问",
+    "projectGithub": "Github"
+  },
+  "ModelVs": {
+    "title": "模型辩论 | modeldebate.awesomeprompt.net",
+    "description": "模型辩论，模型之间争得面红耳赤拍桌子瞪眼睛，你支持谁？"
   }
 }

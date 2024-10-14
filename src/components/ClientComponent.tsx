@@ -166,7 +166,7 @@ export default function ClientComponent({ models }: ClientComponentProps) {
     await streamResponse(responseD, "d");
   };
   return (
-    <div className="container mx-auto pt-4 flex-1 overflow-auto flex flex-col">
+    <div className="container mx-auto p-4 flex-1 overflow-auto flex flex-col">
       <div className="flex flex-col md:flex-row gap-4 mb-4">
         <Textarea
           placeholder={t("inputQuestion")}

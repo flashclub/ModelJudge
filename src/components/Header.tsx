@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import LanguageSwitcher from "./LanguageSwitcher";
 import { Button } from "./ui/button";
@@ -8,10 +8,10 @@ import Image from "next/image";
 import { useSession, signOut } from "next-auth/react";
 import LoginDialog from "./LoginDialog";
 import { useState, useEffect } from "react";
+import { Brain, BarChart2 } from "lucide-react";
 
 const Header = ({ locale }: { locale: string }) => {
   const t = useTranslations("Header");
-
   const { data: session, status } = useSession();
   // console.log("Session status:", status, "Session data:", session);
   const [isLoginDialogOpen, setIsLoginDialogOpen] = useState(false);
@@ -44,9 +44,19 @@ const Header = ({ locale }: { locale: string }) => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-40 font-mono">
-      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
-        <Link href="/" className="flex items-end"></Link>
+    <header className="sticky top-0  left-0 right-0 bg-white shadow-md z-40 font-mono">
+      <div className="container mx-auto h-16 px-4 py-2 flex items-center justify-between">
+        <Link href={`/${locale}`} className="flex items-center">
+          <Image
+            src="/logo.svg"
+            alt="logo"
+            width={60}
+            height={60}
+            className="mr-2"
+          />
+          {/* <Brain className="mr-2" /> */}
+          首页
+        </Link>
 
         <nav className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-8">
           {/* <Link href="#features" className="hover:text-primary">
@@ -55,24 +65,6 @@ const Header = ({ locale }: { locale: string }) => {
           <Link href="#faq" className="hover:text-primary">
             {t("faq")}
           </Link> */}
-          <Link
-            href={`/${locale}/new-word`}
-            className="hover:text-primary hover:underline"
-          >
-            {t("newWord")}
-          </Link>
-          <Link
-            href={`/${locale}/info`}
-            className="hover:text-primary hover:underline"
-          >
-            {t("infoCard")}
-          </Link>
-          <Link
-            href={`/${locale}/ppt`}
-            className="hover:text-primary hover:underline"
-          >
-            {t("ppt")}
-          </Link>
         </nav>
 
         <div className="flex items-center space-x-4">
