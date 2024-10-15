@@ -78,7 +78,7 @@ This project is licensed under the MIT License. For more details, please see the
 
 Let's build a better AI model evaluation platform together! 🎉
 
-## Sponsorship
+## Sponsorship 💰
 
 If you like the library and want to support, you can do it by buying me a coffee at
 

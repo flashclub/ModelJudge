@@ -78,3 +78,14 @@ src/
 本项目采用 MIT 许可证。详情请查看 [LICENSE](LICENSE) 文件。
 
 让我们一起打造更棒的 AI 模型评估平台吧! 🎉
+
+## 赞助 💰
+
+如果你喜欢这个项目，想要支持，可以通过以下方式赞助我：
+
+<a
+  title="Like flashclub's work? Buy him a coffee"
+  class="bmac"
+  href="https://buymeacoffee.com/laughing_is_me">
+<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=laughing_is_me&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" />
+</a>
