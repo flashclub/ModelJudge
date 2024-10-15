@@ -27,10 +27,10 @@ export default function LoginDialog({
         {message && <p className="text-sm text-gray-600 mb-4">{message}</p>}
         <div className="space-y-4">
           <Button onClick={() => signIn("google")} className="w-full">
-            {t("loginWithGoogle")}
+            Google
           </Button>
           <Button onClick={() => signIn("github")} className="w-full">
-            {t("loginWithGithub")}
+            Github
           </Button>
         </div>
       </DialogContent>

@@ -50,14 +50,12 @@ export default async function AllModel({
 
   console.log("api data--", data);
   return (
-    <Suspense fallback={<div>{t("loading")}</div>}>
-      <div className="flex flex-col container p-4 mx-auto max-h-[calc(100vh-0px)] overflow-auto">
-        <div className="flex space-y-2  flex-col justify-center items-center">
-          <h1 className="text-2xl font-bold">{t("infoCard")}</h1>
-          <div className="text-xl text-gray-500">{t("description")}</div>
-        </div>
-        <ClientComponent models={data.data} />
+    <div className="flex flex-col container p-4 mx-auto max-h-[calc(100vh-0px)] overflow-auto">
+      <div className="flex space-y-2  flex-col justify-center items-center">
+        <h1 className="text-2xl font-bold">{t("infoCard")}</h1>
+        <div className="text-xl text-gray-500">{t("description")}</div>
       </div>
-    </Suspense>
+      <ClientComponent models={data.data} />
+    </div>
   );
 }

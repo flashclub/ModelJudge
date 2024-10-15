@@ -55,7 +55,7 @@ const Header = ({ locale }: { locale: string }) => {
             className="mr-2"
           />
           {/* <Brain className="mr-2" /> */}
-          首页
+          {t("home")}
         </Link>
 
         <nav className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-8">

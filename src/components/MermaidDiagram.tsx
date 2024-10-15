@@ -2,30 +2,31 @@
 
 import React, { useEffect, useRef } from "react";
 import mermaid from "mermaid";
-
+import { useTranslations } from "next-intl";
 export default function MermaidDiagram() {
+  const t = useTranslations("MermaidDiagram");
   const ref = useRef<HTMLDivElement>(null);
   const chart = `
     %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#007bff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#007bff', 'lineColor': '#333333', 'secondaryColor': '#f8f9fa', 'tertiaryColor': '#f1f3f5', 'fontSize': '18px'}}}%%
     flowchart LR
       subgraph  
-        A("开始") --> B("用户输入问题或任务描述")
-        B --> C("选择三种AI模型进行测试")
-        C --> D("模型1处理")
-        C --> E("模型2处理")
-        C --> F("模型3处理")
+        A("${t("start")}") --> B("${t("question")}")
+        B --> C("${t("selectModel")}")
+        C --> D("${t("model1")}")
+        C --> E("${t("model2")}")
+        C --> F("${t("model3")}")
       end
       subgraph  
-        D --> G("模型1回答")
-        E --> H("模型2回答")
-        F --> I("模型3回答")
-        G & H & I --> J("评判模型<br>(第四个模型)评估")
+        D --> G("${t("model1Answer")}")
+        E --> H("${t("model2Answer")}")
+        F --> I("${t("model3Answer")}")
+        G & H & I --> J("${t("judgeModel")}")
       end
       subgraph  
-        J --> L("生成评分和详细评价")
-        L --> M("用户查看每个模型的<br>得分和评价")
-        M --> N("用户选择最适合的模型")
-        N --> O("结束")
+        J --> L("${t("generateScore")}")
+        L --> M("${t("viewScore")}")
+        M --> N("${t("selectBestModel")}")
+        N --> O("${t("end")}")
       end
 
       classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:10,ry:10

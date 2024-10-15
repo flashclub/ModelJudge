@@ -33,6 +33,6 @@ export default function middleware(request: NextRequest) {
 export const config = {
   // 匹配所有路径除了 /api, /_next, /_vercel, /images, /favicon.ico, /robots.txt
   matcher: [
-    "/((?!api|_next|_vercel|images|logo.svg|logo.png|favicon.ico|robots.txt|sitemap.xml).*)",
+    "/((?!api|_next|_vercel|images|logo.svg|.*\\.png|favicon.ico|robots.txt|sitemap.xml).*)",
   ],
 };

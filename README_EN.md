@@ -77,3 +77,14 @@ We welcome any form of contribution! If you have good ideas or find bugs, please
 This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE) file.
 
 Let's build a better AI model evaluation platform together! 🎉
+
+## Sponsorship
+
+If you like the library and want to support, you can do it by buying me a coffee at
+
+<a
+  title="Like flashclub's work? Buy him a coffee"
+  class="bmac"
+  href="https://buymeacoffee.com/laughing_is_me">
+<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=laughing_is_me&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" />
+</a>
