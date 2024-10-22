@@ -9,7 +9,7 @@ import {
   DialogTitle,
   DialogFooter,
 } from "@/components/ui/dialog";
-import { useToast } from "@/components/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast";
 import { ToastAction } from "@/components/ui/toast";
 export default function InputApiKey({ cookies }: { cookies: any }) {
   const [apiKey, setApiKey] = useState("");
