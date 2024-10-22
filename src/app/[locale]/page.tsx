@@ -16,27 +16,6 @@ import {
 import MermaidDiagram from "@/components/MermaidDiagram";
 const INTL_NAMESPACE = "AllModel";
 
-const fetchAllModel = async () => {
-  const options = {
-    method: "GET",
-    headers: {
-      accept: "application/json",
-      Authorization: `Bearer ${process.env.SILICONFLOW_KEY}`,
-    },
-  };
-
-  const data = await fetch(
-    "https://api.siliconflow.cn/v1/models?type=text&sub_type=chat",
-    options
-  )
-    .then((response) => response.json())
-    .catch((error) => {
-      console.log(error);
-    });
-
-  return data;
-};
-
 export const generateMetadata = async ({
   params: { locale },
 }: {

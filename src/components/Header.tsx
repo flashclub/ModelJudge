@@ -69,16 +69,18 @@ const Header = ({ locale }: { locale: string }) => {
 
         <div className="flex items-center space-x-4">
           <LanguageSwitcher />
-          {status === "loading" ? (
+          {/* {status === "loading" ? (
             <span>Loading...</span>
           ) : session ? (
             <div className="flex items-center space-x-2">
               <span>{session.user?.name}</span>
-              <Button onClick={() => signOut()}>logout</Button>
+              <Button onClick={() => signOut()}>{t("logout")}</Button>
             </div>
           ) : (
-            <Button onClick={() => setIsLoginDialogOpen(true)}>login</Button>
-          )}
+            <Button onClick={() => setIsLoginDialogOpen(true)}>
+              {t("login")}
+            </Button>
+          )} */}
         </div>
       </div>
       <LoginDialog

@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { Toaster } from "@/components/ui/toaster";
 interface LayoutProps {
   children: React.ReactNode;
   locale: string;
@@ -11,6 +12,7 @@ export default function Layout({ children, locale }: LayoutProps) {
       <Header locale={locale} />
       <main className="flex-grow">{children}</main>
       <Footer locale={locale} />
+      <Toaster />
     </div>
   );
 }

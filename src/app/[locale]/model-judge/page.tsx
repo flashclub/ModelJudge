@@ -2,7 +2,8 @@ import { Suspense } from "react";
 import ClientComponent from "@/components/ClientComponent";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { Metadata } from "next";
-
+import InputApiKey from "./InputApiKey";
+import { cookies } from "next/headers";
 const INTL_NAMESPACE = "AllModel";
 
 const fetchAllModel = async () => {
@@ -54,7 +55,20 @@ export default async function AllModel({
       <div className="flex space-y-2  flex-col justify-center items-center">
         <h1 className="text-2xl font-bold">{t("infoCard")}</h1>
         <div className="text-xl text-gray-500">{t("description")}</div>
+        <div>
+          由于访问量激增，如遇到评分服务无法访问，请稍后再试。或输入自己密钥使用。
+          （您的密钥不会被记录）。免费申请密钥请访问：
+          <a
+            href="https://cloud.siliconflow.cn/i/h5JiyFm0"
+            className="text-blue-600 hover:underline"
+          >
+            SiliconCloud
+          </a>
+          &nbsp;&nbsp;
+          <InputApiKey cookies={cookies()} />
+        </div>
       </div>
+
       <ClientComponent models={data.data} />
     </div>
   );
