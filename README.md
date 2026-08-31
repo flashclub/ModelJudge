@@ -1,3 +1,5 @@
+
+
 [English](https://github.com/flashclub/ModelJudge/blob/main/README_EN.md)
 
 本项目抽离于 [AwesomePrompt](https://awesomeprompt.net/zh/all-model)，感谢 [SiliconCloud](https://cloud.siliconflow.cn/i/h5JiyFm0) 提供的免费 API 服务。目前注册即送 2000 万 token。
@@ -62,7 +64,7 @@ src/
 ├── config/ # 配置文件
 ├── context/ # React Context
 ├── lib/ # 工具函数
-└── messages/ # 国际化文本
+└── i18n.ts # 国际化配置
 ```
 
 ## 贡献指南 🤝
